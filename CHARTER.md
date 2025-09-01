@@ -2,15 +2,15 @@
 
 Nombre del Proyecto: CryptoStream
 
-Líder del Proyecto: [Nombre del líder]
+Líder del Proyecto: Blanca Estelea
 
-Equipo de Proyecto: [Nombres de los integrantes]
+Equipo de Proyecto: BSJ
 
 Fecha de Inicio: [dd/mm/aaaa]
 
 Fecha de Finalización: [dd/mm/aaaa]
 
-Patrocinador: [Nombre del docente o institución]
+Patrocinador: [ITT
 
 2. Propósito del Proyecto
 
