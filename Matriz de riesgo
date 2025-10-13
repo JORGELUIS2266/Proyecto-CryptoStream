@@ -1,0 +1,130 @@
+# 🛡️ Análisis y Matriz de Riesgos del Proyecto CryptoStream
+
+## 📘 1. Introducción
+
+**CryptoStream** es una plataforma de contenido digital basada en **Web 3.0**, diseñada para empoderar a los creadores de contenido, garantizando la **propiedad total** de sus obras y una **monetización justa y descentralizada** mediante el uso de **blockchain, NFTs y tokens de recompensa**.
+
+El presente documento tiene como propósito realizar un **análisis integral de riesgos** que permita identificar, evaluar y mitigar amenazas potenciales que podrían afectar el desarrollo, seguridad, operación o sostenibilidad del proyecto.  
+A través de esta actividad denominada **“El Escudo Anti-Riesgo”**, se promueve una gestión preventiva que garantice la continuidad y éxito del proyecto.
+
+---
+
+## 🎯 2. Objetivos del Análisis de Riesgos
+
+- **Identificar** las amenazas técnicas, operativas, legales y externas que puedan afectar el desarrollo o despliegue de la plataforma.
+- **Evaluar** la probabilidad de ocurrencia y el impacto de cada riesgo sobre los objetivos del proyecto.
+- **Diseñar estrategias de respuesta** (mitigación, evitación, transferencia o aceptación) que reduzcan los efectos negativos.
+- **Fomentar una cultura de gestión proactiva** dentro del equipo de desarrollo de CryptoStream.
+
+---
+
+## ⚙️ 3. Metodología de Gestión de Riesgos
+
+El proceso seguido se basa en las buenas prácticas de gestión de riesgos de proyectos tecnológicos, adaptadas al contexto blockchain y Web 3.0:
+
+1. **Identificación de riesgos:**  
+   Mediante una lluvia de ideas (“La Caza de Villanos”), se detectaron las amenazas más probables en las dimensiones técnica, organizacional y externa.
+2. **Evaluación y priorización:**  
+   Cada riesgo se valoró según dos criterios: **Impacto (I)** y **Probabilidad (P)**, clasificándolos en una matriz 3x3.
+3. **Planificación de respuestas:**  
+   Se establecieron estrategias concretas para cada riesgo con asignación de responsables y acciones específicas.
+4. **Monitoreo y control:**  
+   Se definió un sistema de revisión continua y actualización mensual de la matriz en el repositorio.
+
+---
+
+## 🔍 4. Identificación de Riesgos
+
+Los siguientes riesgos fueron identificados a partir del análisis colaborativo del equipo de desarrollo de **CryptoStream**:
+
+| Nº | Riesgo | Tipo | Descripción |
+|----|--------|------|--------------|
+| 1 | Vulnerabilidad en el contrato inteligente (smart contract) | Técnico | Fallos en el código podrían permitir el robo o duplicación de tokens y NFTs. |
+| 2 | Baja adopción por parte de creadores de contenido | Operativo | Los usuarios pueden desconfiar del sistema Web 3.0 o desconocer su funcionamiento. |
+| 3 | Ataques o hackeos a cuentas de usuarios | Seguridad | Accesos no autorizados que comprometan datos personales o billeteras. |
+| 4 | Cambios en la regulación de criptomonedas en México | Externo | Nuevas leyes podrían limitar la circulación de tokens o el uso de NFTs. |
+| 5 | Retrasos en el desarrollo por falta de experiencia técnica en blockchain | Organizacional | La curva de aprendizaje puede causar incumplimiento en los tiempos de entrega. |
+| 6 | Saturación o fallas en la red blockchain utilizada | Técnico | Congestión o fallas en la red podrían afectar las transacciones y la experiencia del usuario. |
+| 7 | Pérdida de datos o errores en almacenamiento descentralizado | Técnico | Riesgo de pérdida de contenido si los nodos descentralizados fallan. |
+
+---
+
+## 📊 5. Matriz de Evaluación de Riesgos (Impacto vs Probabilidad)
+
+| Riesgo | Impacto | Probabilidad | Nivel de Prioridad | Descripción |
+|---------|----------|--------------|--------------------|--------------|
+| Vulnerabilidad en smart contract | Alto | Medio | ⚠️ Crítico | Puede comprometer toda la economía interna y confianza de los usuarios. |
+| Hackeo de cuentas de usuario | Alto | Alto | 🔴 Muy Alto | Afecta directamente la seguridad de los usuarios y la reputación del proyecto. |
+| Baja adopción de creadores | Medio | Alto | 🟠 Alto | Reduce el alcance del proyecto y la sostenibilidad del modelo económico. |
+| Cambios regulatorios | Alto | Bajo | 🟡 Medio | Requiere adaptaciones legales y técnicas a las nuevas políticas. |
+| Retrasos en desarrollo | Medio | Alto | 🟠 Alto | Impacta en las fechas de entrega y versiones de lanzamiento. |
+| Falla en la red blockchain | Alto | Medio | ⚠️ Crítico | Puede detener operaciones y transacciones temporalmente. |
+| Pérdida de datos | Alto | Bajo | 🟡 Medio | Puede afectar la confianza en el sistema de almacenamiento descentralizado. |
+
+> **Escala de colores:**  
+> 🔴 Muy Alto – requiere acción inmediata.  
+> ⚠️ Crítico – acción prioritaria en el corto plazo.  
+> 🟠 Alto – acción planificada y seguimiento frecuente.  
+> 🟡 Medio – monitoreo continuo.
+
+---
+
+## 🧠 6. Análisis Detallado y Estrategias de Respuesta
+
+| Nº | Riesgo | Causas Probables | Consecuencias | Estrategia | Tipo | Plan de Acción | Responsable |
+|----|---------|------------------|----------------|-------------|------|----------------|--------------|
+| 1 | Vulnerabilidad en smart contract | Código inseguro, falta de pruebas | Robo de tokens, pérdida de confianza | Auditoría y pruebas unitarias automáticas | **Mitigar** | Implementar revisiones de código semanales y usar herramientas de análisis estático | Equipo de desarrollo |
+| 2 | Hackeo de cuentas | Contraseñas débiles, falta de cifrado | Robo de datos o tokens | Autenticación multifactor (2FA) y cifrado AES | **Mitigar / Evitar** | Implementar sistema de seguridad robusto y control de accesos | Equipo de seguridad |
+| 3 | Baja adopción de creadores | Falta de conocimiento de Web 3.0 | Pocos usuarios activos | Estrategias de difusión y capacitación | **Mitigar** | Crear guías, tutoriales y programas de onboarding | Área de comunicación |
+| 4 | Cambios regulatorios | Nuevas políticas gubernamentales | Restricción de uso o cierre temporal | Adaptación legal y técnica | **Aceptar / Mitigar** | Monitorear legislación y mantener contacto con asesor jurídico | Líder del proyecto |
+| 5 | Retrasos en desarrollo | Inexperiencia, mala gestión de tiempo | Entregas tardías, sobrecarga de trabajo | Plan de capacitación técnica | **Mitigar / Evitar** | Programar sesiones de aprendizaje en blockchain y gestión ágil | Líder técnico |
+| 6 | Fallas en la red blockchain | Congestión o vulnerabilidad de red | Pérdida de transacciones o latencia | Uso de redes secundarias (fallback) | **Transferir / Mitigar** | Implementar redundancia mediante múltiples nodos o redes | DevOps |
+| 7 | Pérdida de datos | Fallos en IPFS o almacenamiento descentralizado | Pérdida de contenido digital | Copias de seguridad automáticas | **Mitigar** | Configurar backups periódicos y validación de integridad | Backend team |
+
+---
+
+## 🔄 7. Plan de Monitoreo y Control
+
+| Actividad | Frecuencia | Responsable | Herramienta / Evidencia |
+|------------|-------------|--------------|---------------------------|
+| Revisión de la matriz de riesgos | Mensual | Líder del proyecto | Documento actualizado en GitHub |
+| Evaluación de vulnerabilidades | Quincenal | Equipo de desarrollo | Reporte de auditorías |
+| Seguimiento de seguridad | Continuo | Equipo de seguridad | Logs del sistema y alertas |
+| Evaluación legal | Trimestral | Asesor legal | Informe de cumplimiento |
+| Retroalimentación general | Cada sprint | Todo el equipo | Reuniones de revisión |
+
+---
+
+## 🧩 8. Recomendaciones Generales
+
+- Integrar un **pipeline de CI/CD** con validaciones automáticas de seguridad.  
+- Documentar todos los incidentes y actualizaciones en la wiki del proyecto.  
+- Mantener canales de comunicación activos entre desarrolladores, QA y legal.  
+- Establecer un protocolo de **respuestas rápidas a incidentes**.  
+- Realizar capacitaciones periódicas sobre **seguridad y blockchain**.
+
+---
+
+## 📈 9. Conclusiones
+
+El análisis demuestra que **CryptoStream** enfrenta riesgos significativos asociados con la naturaleza descentralizada y tecnológica del proyecto.  
+Sin embargo, mediante la aplicación sistemática de estrategias de **mitigación y monitoreo**, el equipo puede reducir drásticamente la probabilidad de impactos graves.  
+
+La implementación de esta matriz no solo fortalece la **seguridad operativa**, sino que también mejora la **madurez organizacional** del proyecto y fomenta una cultura de **prevención, transparencia y mejora continua** dentro del ecosistema Web 3.0.
+
+---
+
+## 📁 10. Referencias y Documentación Complementaria
+
+- Repositorio oficial: [https://github.com/SistemasTecTlaxiaco/CryptoStream](https://github.com/SistemasTecTlaxiaco/CryptoStream)
+- Wiki del Proyecto: *Gestión de Riesgos y Seguridad en Plataformas Web 3.0*
+- Guía de buenas prácticas de seguridad Blockchain (Ethereum Foundation)
+- ISO 31000: Gestión de Riesgos – Principios y Directrices
+
+---
+
+✍️ **Documento elaborado como parte de la actividad:**  
+**“El Escudo Anti-Riesgo – Gestión de Riesgos en Proyectos Web 3.0”**  
+**Proyecto:** CryptoStream  
+**Equipo:** *(agrega aquí los nombres de los integrantes)*  
+**Fecha:** Octubre de 2025
